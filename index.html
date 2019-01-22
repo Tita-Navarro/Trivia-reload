@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Laboratrivia</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet"> 
+	<link rel="icon" href="https://tusitio-facil.com/wp-content/uploads/2018/12/laboratriviafavicon228.png" sizes="228x228">
+	
+</head>
+<body>
+	<div id= "container" style="padding:2%; background-color: rgb(255, 229, 33);">
+		<div id= center>
+			<!---PANTALLA 0 LOGO -->
+			<div id="logo-container">
+				<div id="logo-regular"><!---LOGO REGULAR--->
+					<img class="logo" src="https://tusitio-facil.com/wp-content/uploads/2018/12/studygirlyaoyao2.png">
+					<h1 class="main-title">&#60labora<strong>trivia</strong>&#62</h1>
+					<p> <span style="font-size:12px; line-height:5px !important;"><strong>v1.1 by daphnemx</strong> Laboratoria GDL 20181213 </span></p>
+				</div>
+				<div id="logo-small" hidden><!---LOGO PEQUEÑO--->
+						<img id="logo" src="https://tusitio-facil.com/wp-content/uploads/2018/12/studygirlyaoyao2.png" style="width: 60px; height: auto; display: inline-block;">
+						<div style="display: inline-block;">
+							<h1 class="small-title">&#60labora<strong>trivia</strong>&#62</h1>
+							<p><span style="font-size:9px; text-align: left;display: inline-block;"><strong><br>v1.1 by daphnemx</strong> Laboratoria GDL 20181213 </span></p></div>
+				</div>
+			</div>
+			<!---PANTALLA 1 LOGIN -->
+			<div id="login" class="low-screen"> 
+				<div id="site-info" class="site-info">
+					<p><span style=" font-size: 1.75em; line-height: .75em; font-weight:500;">¡Bienvenida!</span><br><span style ="font-size: .85em;"><strong>Laboratrivia</strong> es mi primer aplicación web. La diseñé en base al gran trabajo realizado por el<a href="https://codepen.io/SeleneHdz/pen/RErWLw?editors=1010" target="_blank"> Lovelace Trío </a> de <a href="https://www.laboratoria.la/" target="_blank"><strong>Laboratoria</a> Guadalajara</strong> durante el curso de preadmisión 2018.<br> Se puede usar para múltiples própósitos variando el contenido. <br>Gracias por pasar a verla ¡espero la disfrutes!</span></p>					
+				</div>
+				<br>
+				<p style=" font-size: 1.35em; line-height: .75em; font-weight:400;"><strong>Por favor ingresa tu nombre:</strong></p>			
+				<input type="text" name="userName" id="userName" style="border-radius: 10px">
+				<br>
+				<label id="nameLabel" hidden "></label>
+				<!--BOTON DE LOGIN LLEVA A PANTALLA 2--->
+				<button id="sendName" class="enter" onclick="clickLoginButton()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 60%;"></button> 
+				<p style="margin: -10px 5px 5px 5px; font-weight: 500;">¡A jugar!</p>
+		    </div>
+		</div>
+	</div>
+<script src="app.js"></script>
+</body>
+</html>

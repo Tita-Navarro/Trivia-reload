@@ -1,0 +1,175 @@
+#center {
+	text-align: center;
+	min-height: 100vh;
+	display: block;
+	width: 100%;
+	
+}
+
+.site-info{    
+	margin: auto 30%;
+    background-color: #ffda00;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+#name-input {
+	display: block;
+	height: auto;
+
+}
+
+#logo-container{
+	height: auto;
+	text-align: center;
+	display: block;
+	padding: 15px 0px 15px 0px;
+	background: repeating-linear-gradient(
+		-55deg,rgba(0,0,0,0.0),rgba(0,0,0,0.0) 20px,
+		rgba(250, 205, 3, 0.4) 20px,rgba(250, 205, 3, 0.4) 40px);
+	
+}
+
+img.logo {
+	height: 210px;
+	margin-left:auto; 
+	margin-right:auto; 
+	display: block;
+}
+
+.low-screen {
+	display: block;
+	padding: 5px 10px 20px 10px;
+}
+
+input#userName {
+	display: inline-block;
+	margin: 15px 0px 0px 0px;
+	padding: 10px 15px;
+	border:0;
+	width: 200px;
+	font-size: 16px;
+	text-align: center;
+
+}
+
+button.enter {
+	cursor:pointer;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: rgb(252, 53, 185);
+	color: white;
+	font-size: 30px;
+	border: none;
+	font-weight: 600;
+	font-family: sans-serif;
+	padding: 1px;
+	margin: 10px;
+}
+h1.main-title{
+	font-family: 'Roboto', sans-serif; 
+	font-size: 40px; 
+	font-weight: 400; 
+	text-align: center;
+	margin:0;
+}
+h1.small-title{
+	font-family: 'Roboto', sans-serif; 
+	font-size: 30px; 
+	font-weight: 400; 
+	text-align: center;
+	line-height: .1em;
+	margin:0;
+}
+p{
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	font-weight: 300; 
+	text-align: center;
+	line-height: 1.65em;
+	margin: 0px;
+}
+p#greeting {
+	font-size: 1.75em; 
+	line-height: 1.75em; 
+	font-weight:300; 
+	margin-bottom: 15px;
+}
+
+button.categories{
+	display: inline-block;
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 8px 20px;
+	margin: 15px 0;
+	border-radius: 10px;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	cursor: pointer;
+}
+
+button.questions{
+	display: inline-block;
+	text-align: center;
+	background-color: white;
+	color: black;
+	padding: 8px 20px;
+	margin: 10px 0;
+	border-radius: 10px;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	cursor: pointer;
+}
+
+button.questions-disabled{
+	display: inline-block;
+	text-align: center;
+	background-color: white;
+	color: black;
+	padding: 8px 20px;
+	margin: 10px 0;
+	border-radius: 10px;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+}
+
+button.next-button {
+	cursor:pointer;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	border: none;
+	font-weight: 600;
+	font-family: sans-serif;
+	padding: 1px;
+	margin: 10px;
+}
+button.score{
+	cursor:pointer;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: black;
+	
+}
+
+@media only screen and (max-width: 1000px)
+{
+	.site-info {
+		margin: auto;
+}
+}
