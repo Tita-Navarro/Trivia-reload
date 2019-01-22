@@ -14,26 +14,26 @@
 <body>
 <div id= "container" style="padding:2%; background-color: rgb(255, 229, 33);">
 		<div id= center>
-			<!---
+		
 			<div id="logo-container">
-				<div id="logo-regular"> LOGO REGULAR  
+				<div id="logo-regular"> <!-LOGO REGULAR -->
 					<img class="logo" src="https://tusitio-facil.com/wp-content/uploads/2018/12/studygirlyaoyao2.png">
 					<h1 class="main-title">&#60labora<strong>trivia</strong>&#62</h1>
-					<p> <span style="font-size:12px; line-height:5px !important;"><strong>v1.1 by daphnemx</strong> Laboratoria GDL 20181213 </span></p>
+					<p> <span style="font-size:12px; line-height:5px !important;"><strong>v1.3 by Tita&Mara</strong> Laboratoria GDL 20181213 </span></p>
 				</div>
-				<div id="logo-small" hidden> -LOGO PEQUEÑO 
+				<div id="logo-small" hidden> <!-LOGO PEQUEÑO-- >
 						<img id="logo" src="https://tusitio-facil.com/wp-content/uploads/2018/12/studygirlyaoyao2.png" style="width: 60px; height: auto; display: inline-block;">
 						<div style="display: inline-block;">
 							<h1 class="small-title">&#60labora<strong>trivia</strong>&#62</h1>
 							<p><span style="font-size:9px; text-align: left;display: inline-block;"><strong><br>v1.1 by daphnemx</strong> Laboratoria GDL 20181213 </span></p></div>
 				</div>
 			</div>
-			 PANTALLA 1 LOGIN 
+			<!-PANTALLA 1 LOGIN-->
 			<div id="login" class="low-screen"> 
 				<p><span style="font-size: 1.75em; line-height: 1em; font-weight:500;">¡Bienvenida!</span><br><span style ="font-size: 1em;"><strong>Laboratrivia</strong> es mi primer aplicación web. <br> La diseñé en base al trabajo realizado por el gran <a href="https://codepen.io/SeleneHdz/pen/RErWLw?editors=1010" target=" "> Lovelace Trío </a> de Laboratoria Guadalajara durante el curso de preadmisión 2018.<br> Se puede usar para múltiples própósitos variando el contenido. Gracias por pasar a verla ¡espero la disfrutes!</span><br><br><strong>Por favor ingresa tu nombre:</strong></p>
 				<input type="text" name="userName" id="userName">
 				<br>
-				 BOTON DE LOGIN LLEVA A PANTALLA 2 
+				 <!-BOTON DE LOGIN LLEVA A PANTALLA 2 -->
 				<button id="sendName" class="enter" onclick="clickLoginButton()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 60%;"></button> 
 				<p style="margin: -10px 5px 5px 5px; font-weight: 500;">¡A jugar!</p>
 		    </div>
@@ -66,23 +66,23 @@
 		    		<p><span style="font-size: 1.4em; line-height: 1em; font-weight:400;">Categoría 01</span>
 		    	
 			    	<div id="question0101"><br><!--PREGUNTA0101--->
-			    		<p><strong>Pregunta 1:</strong></p>
+			    		<p><strong>Pregunta 1:¿Qué tipo de datos representa String?</strong></p>
 			    		<br>
-			    		<button  class="questions" name="correct0101" onclick="addScoreCat01(); answer0101()">correcta</button>
+			    		<button  class="questions" name="correct0101" onclick="addScoreCat01(); answer0101()">Tipo de dato que se usa para representar texto.</button>
 			    		<br>
-			    		<button  class="questions" onclick="answer0101()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0101()">Se usa para ver operadores aritméticos</button>
 			    		<br>
-			    		<button  class="questions" onclick="answer0101()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0101()">Podemos visualizar operadores lógicos</button>
 			    	</div>
 			    	 
 			    	<div id="answer0101" hidden><br><!--RESPUESTA0101--->
-			    		<p><strong>Pregunta 1:</strong></p>
+			    		<p><strong>Pregunta 1:¿Cuál es el resultado de dividir 0/0?</strong></p>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">correcta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">NaN</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">1</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">0</button>
 			    		<br>
 			    		<button id="next" class="next-button" onclick="question0102()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 45%;"></button>
 			    	</div>
