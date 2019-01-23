@@ -36,8 +36,8 @@
 				 BOTON DE LOGIN LLEVA A PANTALLA 2 
 				<button id="sendName" class="enter" onclick="clickLoginButton()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 60%;"></button> 
 				<p style="margin: -10px 5px 5px 5px; font-weight: 500;">¡A jugar!</p>
-		    </div>
-		    <!-PANTALLA 2-1 BIENVENIDA -->
+		    </div>     -->
+		    <!--PANTALLA 2-1 BIENVENIDA -->
 		    <div id="logo-container">
 		    	<div id="logo-small"> 
 					<a href="index.html"><img id="logo" src="https://tusitio-facil.com/wp-content/uploads/2018/12/studygirlyaoyao2.png" style="width: 60px; height: auto; display: inline-block;"></a>
@@ -51,17 +51,17 @@
 		    	<div id="greeting-name">
 		    		<p id="greeting">¡Hola&nbsp<label id="nameLabel" style="font-weight:500; color: rgb(252, 53, 185);"></label>!</p>
 		    	</div>
-		    <!---PANTALLA 2-2 ELIGE CATEGORIA -->
+		    <!--PANTALLA 2-2 ELIGE CATEGORIA -->
 		    	<div id="categories" style="text-align: center;" >
 		    		<br>
 		    		<p>Elige una categoría para comenzar:</p>
-		    		<!--BOTON CAT 1 LLEVA A PANTALLA 3-1--->
+		    		<!--BOTON CAT 1 LLEVA A PANTALLA 3-1-->
 		    		<button id="cat01" class="categories" onclick="cat01screen()">Valores, tipos de datos y operadores&nbsp<img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="height: 25px; width: auto; position: absolute;display: inline;">&nbsp&nbsp&nbsp</button>
 		    		<br>
-		    		<!--BOTON CAT 2 LLEVA A PANTALLA 3-2--->
+		    		<!--BOTON CAT 2 LLEVA A PANTALLA 3-2-->
 		    		<button id="cat02" class="categories" onclick="cat02screen()">Variables y Manipulando strings y numbers&nbsp<img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="height: 25px; width: auto; position: absolute;display: inline;">&nbsp&nbsp&nbsp</button>
 		    	</div>
-		    <!---PANTALLA 3-1 CATEGORIA 1 -->
+		    <!--PANTALLA 3-1 CATEGORIA 1 -->
 		    	<div id="cat01screen" hidden>
 		    		<p><span style="font-size: 1.4em; line-height: 1em; font-weight:400;">Categoría 01</span>
 		    	
@@ -75,7 +75,7 @@
 			    		<button  class="questions" onclick="answer0101()">1</button>
 			    	</div>
 			    	 
-			    	<div id="answer0101" hidden><br><!--RESPUESTA0101--->
+			    	<div id="answer0101" hidden><br><!--RESPUESTA0101-->
 			    		<p><strong>Pregunta 1:¿Cuál es el resultado de dividir 0/0?</strong></p>
 			    		<br>
 			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">NaN</button>
@@ -87,7 +87,7 @@
 			    		<button id="next" class="next-button" onclick="question0102()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 45%;"></button>
 			    	</div>
 
-			    	<div id="question0102" hidden><br><!--PREGUNTA0102--->
+			    	<div id="question0102" hidden><br><!--PREGUNTA0102-->
 			    		<p><strong>Pregunta 2:¿Qué tipo de datos representa String?</strong></p>
 			    		<br>
 			    		<button  class="questions" onclick="answer0102()">Se usa para ver operadores aritméticos</button>
@@ -97,7 +97,7 @@
 			    		<button  class="questions" onclick="answer0102()">Podemos visualizar operadores lógicos</button>
 			    	</div>	
 			    	 
-			    	<div id="answer0102" hidden><br><!--RESPUESTA0102--->
+			    	<div id="answer0102" hidden><br><!--RESPUESTA0102-->
 			    		<p><strong>Pregunta 2:¿Qué tipo de datos representa String?</strong></p>
 			    		<br>
 			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">Se usa para ver operadores aritméticos</button>
@@ -109,7 +109,7 @@
 			    		<button id="next" class="next-button" onclick="question0103()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 45%;"></button>
 			    	</div>
 
-			    	<div id="question0103" hidden><br><!--PREGUNTA0103--->
+			    	<div id="question0103" hidden><br><!--PREGUNTA0103-->
 			    		<p><strong>Pregunta 3:¿Qué símbolo representa el operador lógico ‘Or’?</strong></p>
 			    		<br>
 			    		<button  class="questions" onclick="answer0103()"> && </button>
@@ -120,8 +120,7 @@
 			    		
 			    	</div>
 			    	 
-			    	<div id="answer0103" hidden><br><!--RESPUESTA0103
-			    		--->
+			    	<div id="answer0103" hidden><br><!--RESPUESTA0103-->
 			    		<p><strong>Pregunta 3:¿Qué símbolo representa el operador lógico ‘Or’?</strong></p>
 			    		<br>
 			    		<button class="questions-disabled" disabled style="background-color: #de3338b3"> && </button>
@@ -132,14 +131,14 @@
 			    		<br>
 			    		<button id="printScoreCat01" class="enter" onclick="printScoreCat01()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/score.png" style="width:75%; margin: 6px auto;"></button>
 			    	</div>		    	
-		    	</div><!--cat-title--->
+		    	</div><!--cat-title-->
 
 
-				<!---PANTALLA 3-2 CATEGORIA 2 -->
+				<!--PANTALLA 3-2 CATEGORIA 2 -->
 		    	<div id="cat02screen" hidden>
 		    		<p><span style="font-size: 1.4em; line-height: 1em; font-weight:400;">Categoría 02</span>
 		    	
-			    	<div id="question0201"><br><!--PREGUNTA0201--->
+			    	<div id="question0201"><br><!--PREGUNTA0201-->
 			    		<p><strong>Pregunta 1:¿Cuál es un ejemplo de conversión automática?</strong></p>
 			    		<br>
 			    		<button  class="questions" name="correct0201" onclick="addScoreCat02(); answer0201()">“25” + 6</button>
@@ -149,7 +148,7 @@
 			    		<button  class="questions" onclick="answer0201()">1 + “seis”</button>
 			    	</div>
 			    	 
-			    	<div id="answer0201" hidden><br><!--Respuesta0201--->
+			    	<div id="answer0201" hidden><br><!--Respuesta0201-->
 			    		<p><strong>Pregunta 1:¿Cuál es un ejemplo de conversión automática?</strong></p>
 			    		<br>
 			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">“25” + 6</button>
@@ -161,7 +160,7 @@
 			    		<button id="next" class="next-button" onclick="question0202()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 45%;"></button>
 			    	</div>
 
-			    	<div id="question0202" hidden><br><!--PREGUNTA0202--->
+			    	<div id="question0202" hidden><br><!--PREGUNTA0202-->
 			    		<p><strong>Pregunta 2:¿Cuál opción nos da operadores aritméticos para multiplicar?</strong></p>
 			    		<br>
 			    		<button  class="questions" onclick="answer0202()">x, x=</button>
@@ -171,7 +170,7 @@
 			    		<button  class="questions" onclick="answer0202()">por, por igual</button>
 			    	</div>	
 			    	 
-			    	<div id="answer0202" hidden><br><!--Respuesta0202--->
+			    	<div id="answer0202" hidden><br><!--Respuesta0202-->
 			    		<p><strong>Pregunta 2:¿Cuál opción nos da operadores aritméticos para multiplicar?</strong></p>
 			    		<br>
 			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">x, x=</button>
@@ -183,7 +182,7 @@
 			    		<button id="next" class="next-button" onclick="question0203()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 45%;"></button>
 			    	</div>
 
-			    	<div id="question0203" hidden><br><!--PREGUNTA0203--->
+			    	<div id="question0203" hidden><br><!--PREGUNTA0203-->
 			    		<p><strong>Pregunta 3:¿Cuál es un excelente recurso para el autoaprendizaje?</strong></p>
 			    		<br>
 			    		<button  class="questions" onclick="answer0203()">Libros</button>
@@ -194,8 +193,7 @@
 			    		
 			    	</div>
 			    	 
-			    	<div id="answer0203" hidden><br><!--Respuesta0203
-			    		--->
+			    	<div id="answer0203" hidden><br><!--Respuesta0203-->
 			    		<p><strong>Pregunta 3:¿Cuál es un excelente recurso para el autoaprendizaje?</strong></p>
 			    		<br>
 			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">Libros</button>
@@ -206,7 +204,7 @@
 			    		<br>
 			    		<button id="printScoreCat02" class="enter" onclick="printScoreCat02()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/score.png" style="width:75%; margin: 6px auto;"></button>
 			    	</div>		    	
-		    	</div><!--cat-title--->
+		    	</div><!--cat-title-->
 
 		    	<div id="wellDoneScore" hidden>
 		    		<p id="wellDone"><span style="font-size: 1.75em; line-height: 1em; font-weight:700;">¡Cool! Tu score es:<br><label id="scoreLabel0103" style=" color: rgb(252, 53, 185);"></label><span style="font-weight: 300;">de 3.</span></span></p>
@@ -261,7 +259,7 @@
 				    	
 			    </div>
 
-		    </div> <!--low-screen-container--->
+		    </div> <!--low-screen-container-->
 
 		</div><!--center-->
 	</div> <!--container-->
