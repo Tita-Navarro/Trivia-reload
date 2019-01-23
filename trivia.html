@@ -56,79 +56,79 @@
 		    		<br>
 		    		<p>Elige una categoría para comenzar:</p>
 		    		<!--BOTON CAT 1 LLEVA A PANTALLA 3-1--->
-		    		<button id="cat01" class="categories" onclick="cat01screen()">Categoría 1&nbsp<img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="height: 25px; width: auto; position: absolute;display: inline;">&nbsp&nbsp&nbsp</button>
+		    		<button id="cat01" class="categories" onclick="cat01screen()">Valores, tipos de datos y operadores&nbsp<img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="height: 25px; width: auto; position: absolute;display: inline;">&nbsp&nbsp&nbsp</button>
 		    		<br>
 		    		<!--BOTON CAT 2 LLEVA A PANTALLA 3-2--->
-		    		<button id="cat02" class="categories" onclick="cat02screen()">Categoría 2&nbsp<img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="height: 25px; width: auto; position: absolute;display: inline;">&nbsp&nbsp&nbsp</button>
+		    		<button id="cat02" class="categories" onclick="cat02screen()">Variables y Manipulando strings y numbers&nbsp<img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="height: 25px; width: auto; position: absolute;display: inline;">&nbsp&nbsp&nbsp</button>
 		    	</div>
 		    <!---PANTALLA 3-1 CATEGORIA 1 -->
 		    	<div id="cat01screen" hidden>
 		    		<p><span style="font-size: 1.4em; line-height: 1em; font-weight:400;">Categoría 01</span>
 		    	
 			    	<div id="question0101"><br><!--PREGUNTA0101--->
-			    		<p><strong>Pregunta 1:</strong></p>
+			    		<p><strong>Pregunta 1:¿Cuál es el resultado de dividir 0/0? </strong></p>
 			    		<br>
-			    		<button  class="questions" name="correct0101" onclick="addScoreCat01(); answer0101()">correcta</button>
+			    		<button  class="questions" name="correct0101" onclick="addScoreCat01(); answer0101()">Nan</button>
 			    		<br>
-			    		<button  class="questions" onclick="answer0101()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0101()">0</button>
 			    		<br>
-			    		<button  class="questions" onclick="answer0101()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0101()">1</button>
 			    	</div>
 			    	 
 			    	<div id="answer0101" hidden><br><!--RESPUESTA0101--->
-			    		<p><strong>Pregunta 1:</strong></p>
+			    		<p><strong>Pregunta 1:¿Cuál es el resultado de dividir 0/0?</strong></p>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">correcta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">NaN</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">0</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">1</button>
 			    		<br>
 			    		<button id="next" class="next-button" onclick="question0102()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 45%;"></button>
 			    	</div>
 
 			    	<div id="question0102" hidden><br><!--PREGUNTA0102--->
-			    		<p><strong>Pregunta 2:</strong></p>
+			    		<p><strong>Pregunta 2:¿Qué tipo de datos representa String?</strong></p>
 			    		<br>
-			    		<button  class="questions" onclick="answer0102()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0102()">Se usa para ver operadores aritméticos</button>
 			    		<br>
-			    		<button  class="questions" name="correct0102" onclick="addScoreCat01();answer0102()">correcta</button>
+			    		<button  class="questions" name="correct0102" onclick="addScoreCat01();answer0102()">Tipo de dato que se usa para representar texto</button>
 			    		<br>	
-			    		<button  class="questions" onclick="answer0102()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0102()">Podemos visualizar operadores lógicos</button>
 			    	</div>	
 			    	 
 			    	<div id="answer0102" hidden><br><!--RESPUESTA0102--->
-			    		<p><strong>Pregunta 2:</strong></p>
+			    		<p><strong>Pregunta 2:¿Qué tipo de datos representa String?</strong></p>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">Se usa para ver operadores aritméticos</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">correcta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">Tipo de dato que se usa para representar texto</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">Podemos visualizar operadores lógicos</button>
 			    		<br>
 			    		<button id="next" class="next-button" onclick="question0103()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 45%;"></button>
 			    	</div>
 
 			    	<div id="question0103" hidden><br><!--PREGUNTA0103--->
-			    		<p><strong>Pregunta 3:</strong></p>
+			    		<p><strong>Pregunta 3:¿Qué símbolo representa el operador lógico ‘Or’?</strong></p>
 			    		<br>
-			    		<button  class="questions" onclick="answer0103()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0103()"> && </button>
 			    		<br>
-			    		<button  class="questions" onclick="answer0103()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0103()"> >< </button>
 			    		<br>
-			    		<button  class="questions" name="correct0103" onclick="addScoreCat01();answer0103()">correcta</button>
+			    		<button  class="questions" name="correct0103" onclick="addScoreCat01();answer0103()"> || </button>
 			    		
 			    	</div>
 			    	 
 			    	<div id="answer0103" hidden><br><!--RESPUESTA0103
 			    		--->
-			    		<p><strong>Pregunta 3:</strong></p>
+			    		<p><strong>Pregunta 3:¿Qué símbolo representa el operador lógico ‘Or’?</strong></p>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3"> && </button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3"> >< </button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">correcta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3"> || </button>
 			    		<br>
 			    		<button id="printScoreCat01" class="enter" onclick="printScoreCat01()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/score.png" style="width:75%; margin: 6px auto;"></button>
 			    	</div>		    	
@@ -140,69 +140,69 @@
 		    		<p><span style="font-size: 1.4em; line-height: 1em; font-weight:400;">Categoría 02</span>
 		    	
 			    	<div id="question0201"><br><!--PREGUNTA0201--->
-			    		<p><strong>Pregunta 1:</strong></p>
+			    		<p><strong>Pregunta 1:¿Cuál es un ejemplo de conversión automática?</strong></p>
 			    		<br>
-			    		<button  class="questions" name="correct0201" onclick="addScoreCat02(); answer0201()">correcta</button>
+			    		<button  class="questions" name="correct0201" onclick="addScoreCat02(); answer0201()">“25” + 6</button>
 			    		<br>
-			    		<button  class="questions" onclick="answer0201()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0201()">'Bienvenida' + 'Fernanda'</button>
 			    		<br>
-			    		<button  class="questions" onclick="answer0201()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0201()">1 + “seis”</button>
 			    	</div>
 			    	 
 			    	<div id="answer0201" hidden><br><!--Respuesta0201--->
-			    		<p><strong>Pregunta 1:</strong></p>
+			    		<p><strong>Pregunta 1:¿Cuál es un ejemplo de conversión automática?</strong></p>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">correcta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">“25” + 6</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">'Bienvenida' + 'Fernanda'</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">1 + “seis”</button>
 			    		<br>
 			    		<button id="next" class="next-button" onclick="question0202()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 45%;"></button>
 			    	</div>
 
 			    	<div id="question0202" hidden><br><!--PREGUNTA0202--->
-			    		<p><strong>Pregunta 2:</strong></p>
+			    		<p><strong>Pregunta 2:¿Cuál opción nos da operadores aritméticos para multiplicar?</strong></p>
 			    		<br>
-			    		<button  class="questions" onclick="answer0202()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0202()">x, x=</button>
 			    		<br>
-			    		<button  class="questions" name="correct0202" onclick="addScoreCat02();answer0202()">correcta</button>
+			    		<button  class="questions" name="correct0202" onclick="addScoreCat02();answer0202()">*, *=</button>
 			    		<br>	
-			    		<button  class="questions" onclick="answer0202()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0202()">por, por igual</button>
 			    	</div>	
 			    	 
 			    	<div id="answer0202" hidden><br><!--Respuesta0202--->
-			    		<p><strong>Pregunta 2:</strong></p>
+			    		<p><strong>Pregunta 2:¿Cuál opción nos da operadores aritméticos para multiplicar?</strong></p>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">x, x=</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">correcta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">*, *=</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">por, por igual</button>
 			    		<br>
 			    		<button id="next" class="next-button" onclick="question0203()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/rightarrow.png" style="width: 45%;"></button>
 			    	</div>
 
 			    	<div id="question0203" hidden><br><!--PREGUNTA0203--->
-			    		<p><strong>Pregunta 3:</strong></p>
+			    		<p><strong>Pregunta 3:¿Cuál es un excelente recurso para el autoaprendizaje?</strong></p>
 			    		<br>
-			    		<button  class="questions" onclick="answer0203()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0203()">Libros</button>
 			    		<br>
-			    		<button  class="questions" onclick="answer0203()">incorrecta</button>
+			    		<button  class="questions" onclick="answer0203()">Apuntes de amigos</button>
 			    		<br>
-			    		<button  class="questions" name="correct0203" onclick="addScoreCat02();answer0203()">correcta</button>
+			    		<button  class="questions" name="correct0203" onclick="addScoreCat02();answer0203()">Internet</button>
 			    		
 			    	</div>
 			    	 
 			    	<div id="answer0203" hidden><br><!--Respuesta0203
 			    		--->
-			    		<p><strong>Pregunta 3:</strong></p>
+			    		<p><strong>Pregunta 3:¿Cuál es un excelente recurso para el autoaprendizaje?</strong></p>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">Libros</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">incorrecta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #de3338b3">Apuntes de amigos</button>
 			    		<br>
-			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">correcta</button>
+			    		<button class="questions-disabled" disabled style="background-color: #1f9d0eb3">Internet</button>
 			    		<br>
 			    		<button id="printScoreCat02" class="enter" onclick="printScoreCat02()"><img src="https://tusitio-facil.com/wp-content/uploads/2018/12/score.png" style="width:75%; margin: 6px auto;"></button>
 			    	</div>		    	
