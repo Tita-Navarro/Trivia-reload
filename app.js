@@ -1,3 +1,4 @@
+var myVar, myVar2;
 function clickLoginButton(){
 	if (userName.value) {
 		localStorage.setItem("username", document.getElementById('userName').value);
@@ -13,6 +14,18 @@ function clickLoginButton(){
 document.getElementById('nameLabel').innerHTML = name;
 
 function cat01screen(){
+	var seconds = 15;
+	var legend = "Tienes 15 segundos para contestar";
+
+	myVar = setInterval(function(){
+		document.getElementById("timer").innerHTML = seconds + "<br>" + legend
+		
+		if (seconds > 0) {
+			seconds--;
+	  	} else if (seconds == 0) {
+			printScoreCat01()
+	 	}
+	}, 1000);
 	document.getElementById('greeting').style.display ='none';
 	document.getElementById('categories').style.display = 'none' ;
 	document.getElementById('cat01screen').style.display = 'block' ;
@@ -57,6 +70,7 @@ function answer0103(){
 }
 
 function printScoreCat01(){
+	clearInterval(myVar); //limpiar el timer
 	
 	if (scoreCat01 ===3){
 		document.getElementById('cat01screen').style.display ='none';
@@ -108,6 +122,19 @@ function exitGame(){
 }
 
 function cat02screen(){
+	var seconds2 = 15;
+	var legend2 = "Tienes 15 segundos para contestar";
+
+	myVar2 = setInterval(function(){
+		document.getElementById("timer2").innerHTML = seconds2 + "<br>" + legend2
+		
+		if (seconds2 > 0) {
+			seconds2--;
+	  	} else if (seconds2 == 0) {
+			printScoreCat02()
+	 	}
+	}, 1000);
+	
 	document.getElementById('greeting').style.display ='none';
 	document.getElementById('categories').style.display = 'none' ;
 	document.getElementById('cat02screen').style.display = 'block' ;
@@ -152,7 +179,7 @@ function answer0203(){
 }
 
 function printScoreCat02(){
-	
+	clearInterval (myVar2);
 	if (scoreCat02 ===3){
 		document.getElementById('cat02screen').style.display ='none';
 		document.getElementById('wellDoneScore').style.display ='block';
@@ -178,29 +205,5 @@ function printScoreCat02(){
 		document.getElementById('finalButtons').style.display = 'block';
 	}
 }
-var seconds=15;
-const legend="Tienes 15 segundos para contestar";
-const myVar = setInterval(function(){
-	document.getElementById("timer").innerHTML = seconds + "<br>" + legend
-  
-  if (seconds>0) {
-  seconds--;
-  }
- else {
-	printScoreCat01()
- }
-}, 1000); 
-	
-var seconds2=15;
-const legend2="Tienes 15 segundos para contestar";
-const myVar2 = setInterval(function(){
-	document.getElementById("timer2").innerHTML = seconds2 + "<br>" + legend2
-  
-  if (seconds2>0) {
-  seconds2--;
-  }
- else {
-	printScoreCat02()
- }
-}, 1000); 	
+
 
