@@ -7,7 +7,7 @@ function clickLoginButton(){
 		alert('No se ha ingresado un nombre');
 		return false;
 	}
-	 location.replace('trivia.html'); 
+	 location.replace('trivia1.html'); 
 }
 
 document.getElementById('nameLabel').innerHTML = name;
