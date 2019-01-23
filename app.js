@@ -14,14 +14,14 @@ function clickLoginButton(){
 document.getElementById('nameLabel').innerHTML = name;
 
 function cat01screen(){
-	var seconds = 15;
-	var legend = "Tienes 15 segundos para contestar";
+	var seconds = 20; //duración del contador
+	var legend = "Tienes 20 segundos para contestar la trivia";
 
 	myVar = setInterval(function(){
 		document.getElementById("timer").innerHTML = seconds + "<br>" + legend
 		
 		if (seconds > 0) {
-			seconds--;
+			seconds--; //se va reduciendo el contador
 	  	} else if (seconds == 0) {
 			printScoreCat01()
 	 	}
@@ -122,8 +122,8 @@ function exitGame(){
 }
 
 function cat02screen(){
-	var seconds2 = 15;
-	var legend2 = "Tienes 15 segundos para contestar";
+	var seconds2 = 20;
+	var legend2 = "Tienes 20 segundos para contestar la trivia";
 
 	myVar2 = setInterval(function(){
 		document.getElementById("timer2").innerHTML = seconds2 + "<br>" + legend2
