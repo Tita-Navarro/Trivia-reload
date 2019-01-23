@@ -180,7 +180,7 @@ function printScoreCat02(){
 }
 var seconds=15;
 const legend="Tienes 15 segundos para contestar";
-var myVar = setInterval(function(){
+const myVar = setInterval(function(){
 	document.getElementById("timer").innerHTML = seconds + "<br>" + legend
   
   if (seconds>0) {
@@ -193,7 +193,7 @@ var myVar = setInterval(function(){
 	
 var seconds2=15;
 const legend2="Tienes 15 segundos para contestar";
-var myVar2 = setInterval(function(){
+const myVar2 = setInterval(function(){
 	document.getElementById("timer2").innerHTML = seconds2 + "<br>" + legend2
   
   if (seconds2>0) {
