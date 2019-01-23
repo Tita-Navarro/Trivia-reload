@@ -178,6 +178,29 @@ function printScoreCat02(){
 		document.getElementById('logo-container').style.display ='none';
 		document.getElementById('finalButtons').style.display = 'block';
 	}
-		
+	var seconds=15;
+var legend="Tienes 15 segundos para contestar";
+var myVar = setInterval(function(){
+	document.getElementById("timer").innerHTML = seconds + "<br>" + legend
+  
+  if (seconds>0) {
+  seconds--;
+  }
+ else {
+	printScoreCat01()
+ }
+}, 1000); 
+var seconds2=15;
+var legend2="Tienes 15 segundos para contestar";
+var myVar2 = setInterval(function(){
+	document.getElementById("timer2").innerHTML = seconds2 + "<br>" + legend2
+  
+  if (seconds2>0) {
+  seconds2--;
+  }
+ else {
+	printScoreCat02()
+ }
+}, 1000); 	
 }
 
