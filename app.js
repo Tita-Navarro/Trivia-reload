@@ -5,8 +5,7 @@ function clickLoginButton(){
 		name =localStorage.getItem("username");
     }
     else {
-		document.getElementById('noName').style.display = 'block' ;
-		document.getElementById('logName').style.display = 'none' ;
+		alert('No se ha ingresado un nombre');
 		return false;
 	}
 	 location.replace('trivia.html'); 
