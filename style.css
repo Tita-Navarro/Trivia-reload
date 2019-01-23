@@ -24,9 +24,9 @@
 	text-align: center;
 	display: block;
 	padding: 15px 0px 15px 0px;
-	background: repeating-linear-gradient(
-		-55deg,rgba(0,0,0,0.0),rgba(0,0,0,0.0) 20px,
-		rgba(250, 205, 3, 0.4) 20px,rgba(250, 205, 3, 0.4) 40px);
+	background: repeating-linear-gradient( -55deg,rgba(0,0,0,0.0),
+	rgba(0,0,0,0.0) 20px, rgba(144, 207, 234, 0.4) 20px,
+	rgba(112, 139, 216, 0.4) 40px);
 	
 }
 
